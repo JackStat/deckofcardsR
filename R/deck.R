@@ -20,7 +20,7 @@ deck <- function(decks = 1, new = FALSE){
   result <- fromJSON(content(Response, as = 'text'))
 
   if(!result$success){
-    stop('oops something went wrong with the API')
+    stop(result$error)
   } else{
     return(result)
   }

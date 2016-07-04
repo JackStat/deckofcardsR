@@ -16,7 +16,7 @@ draw <- function(cards = 5, deck_id = 'new'){
   result <- fromJSON(content(Response, as = 'text'))
 
   if(!result$success){
-    stop('oops something went wrong with the API')
+    stop(result$error)
   } else{
     return(result)
   }
