@@ -2,6 +2,8 @@
 
 export(deck)
 export(draw)
+export(draw_from_pile)
+export(pile)
 export(shuffle)
 importFrom(httr,GET)
 importFrom(jsonlite,fromJSON)
