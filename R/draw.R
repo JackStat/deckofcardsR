@@ -4,6 +4,7 @@
 #' @param deck_id which deck do you want to use (defaults to \code{new})
 #'
 #' @importFrom httr GET
+#' @importFrom httr content
 #' @importFrom jsonlite fromJSON
 #'
 #' @export

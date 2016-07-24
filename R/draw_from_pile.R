@@ -5,6 +5,7 @@
 #' @param pile_name the name of the pile to draw from (defaults to \code{discard})
 #'
 #' @importFrom httr GET
+#' @importFrom httr content
 #' @importFrom jsonlite fromJSON
 #'
 #' @export

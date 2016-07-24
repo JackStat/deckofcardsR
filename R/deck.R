@@ -4,6 +4,7 @@
 #' @param new specifies a brand new unshuffled deck or number of decks
 #'
 #' @importFrom httr GET
+#' @importFrom httr content
 #' @importFrom jsonlite fromJSON
 #'
 #' @export
